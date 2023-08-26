@@ -1,0 +1,12 @@
+{
+  "name": "audio-giber",
+  "version": "1.6.0",
+  "description": "This is a library js for create a audio player",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "jsdoc": "jsdoc src/index.js"
+  },
+  "author": "Erickgiber",
+  "license": "ISC"
+}
