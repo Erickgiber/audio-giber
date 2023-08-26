@@ -8,5 +8,9 @@
     "jsdoc": "jsdoc src/index.js"
   },
   "author": "Erickgiber",
+  "repository": {
+    "url": "https://github.com/Erickgiber/audio-giber"
+  },
+  "homepage": "https://audiogiber.site",
   "license": "ISC"
 }
