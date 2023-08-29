@@ -2,8 +2,6 @@
 
 AudioGiber is a JavaScript library that allows you to easily create an audio player context. It provides a simple and convenient way to manage and play audio tracks within your application.
 
-### This project is under construction, do not use for production until the end of the beta phase 🚀
-
 ## Installation
 
 You can install AudioGiber using npm:
@@ -63,7 +61,7 @@ The audio tracks are represented as objects with the following properties:
 
 ## Contributing
 
-Contributions to AudioGiber are welcome! If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/your-username/audio-giber). Pull requests are also appreciated.
+Contributions to AudioGiber are welcome! If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/Erickgiber/audio-giber). Pull requests are also appreciated.
 
 ## License
 

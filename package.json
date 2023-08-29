@@ -1,6 +1,6 @@
 {
   "name": "audio-giber",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "This is a library js for create a audio player",
   "main": "src/index.js",
   "type": "module",
@@ -12,5 +12,14 @@
     "url": "https://github.com/Erickgiber/audio-giber"
   },
   "homepage": "https://audiogiber.site",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "audio",
+    "player",
+    "js",
+    "web",
+    "audio player",
+    "library audio",
+    "audio context"
+  ]
 }
