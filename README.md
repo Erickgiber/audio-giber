@@ -59,6 +59,53 @@ The audio tracks are represented as objects with the following properties:
 - `subtitle` (string, optional): The subtitle of the track.
 - `album` (string, optional): The album name of the track.
 
+## Player methods
+
+```ts
+import { AudioGiber, type AudioTrack } from 'audio-giber'
+import tracks from 'tracks'
+
+const Player: AudioGiber = new AudioGiber({
+  name: 'My player',
+  arrayTracks: tracks as AudioTrack[],
+  preload: true,
+  onEndContinueTrack: true,
+})
+
+// Get duration
+const durationTrack1 = player.getDuration()
+// --- or ---
+const durationTrack2 = player.getCurrenTrack().duration
+
+// Play or pause
+player.play()
+payer.pause()
+// --- or ---
+player.togglePlay((event: boolean) => {
+  // if is playing so, audio is paused
+  console.log(event) // this callback is optional
+  // If the callback event is true, so audio is paused
+})
+
+// Set current track
+player.setCurrentTrack({
+  src: 'src/my-audio.mp3',
+  title: 'My Audio',
+  subtitle: 'By Erickgiber',
+  imageTrack: 'my-audio-image.png',
+  description: 'This is my favorite music!',
+  author: 'Erickgiber',
+  bitsVelocity: 320,
+  copyright: false,
+  isDownloadable: true,
+}) // Now you audio track change
+```
+
+### This methods and more
+
+<p>The official documentation is being built 🚀</p>
+<b>This library is open source.</b>
+
 ## Contributing
 
 Contributions to AudioGiber are welcome! If you encounter any issues or have suggestions for improvement, please open an issue on the [GitHub repository](https://github.com/Erickgiber/audio-giber). Pull requests are also appreciated.

@@ -1,6 +1,6 @@
 {
   "name": "audio-giber",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "This is a library js for create a audio player",
   "main": "src/index.js",
   "type": "module",
